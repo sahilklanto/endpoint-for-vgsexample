@@ -5,7 +5,7 @@ from django.urls import path
 router = DefaultRouter()
 
 urlpatterns = [
-    path('dummy-view', views.DummyView.as_view(), name='dummy-view')
+    path('', views.DummyView.as_view(), name='dummy-view')
 ]
 
 # urlpatterns += router.urls
